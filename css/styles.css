@@ -1,0 +1,240 @@
+/*--FONTS--*/
+@font-face { /* Light */
+	font-family: 'NovecentowideLightRegular';
+	src: url('../fonts/Novecentowide-Light-webfont.eot');
+	src: url('../fonts/Novecentowide-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Novecentowide-Light-webfont.woff') format('woff'),
+	url('../fonts/Novecentowide-Light-webfont.ttf') format('truetype'),
+	url('../fonts/Novecentowide-Light-webfont.svg#NovecentowideLightRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face { /* Bold */
+	font-family: 'NovecentowideBookBold';
+	src: url('../fonts/Novecentowide-Bold-webfont.eot');
+	src: url('../fonts/Novecentowide-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Novecentowide-Bold-webfont.woff') format('woff'),
+	url('../fonts/Novecentowide-Bold-webfont.ttf') format('truetype'),
+	url('../fonts/Novecentowide-Bold-webfont.svg#NovecentowideBookBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face { /* DemiBold */
+	font-family: 'NovecentowideLightBold';
+	src: url('../fonts/Novecentowide-DemiBold-webfont.eot');
+	src: url('../fonts/Novecentowide-DemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Novecentowide-DemiBold-webfont.woff') format('woff'),
+	url('../fonts/Novecentowide-DemiBold-webfont.ttf') format('truetype'),
+	url('../fonts/Novecentowide-DemiBold-webfont.svg#NovecentowideLightBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face { /*Medium*/
+	font-family: 'NovecentowideUltraLightBold';
+	src: url('../fonts/Novecentowide-Medium-webfont.eot');
+	src: url('../fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Novecentowide-Medium-webfont.woff') format('woff'),
+	url('../fonts/Novecentowide-Medium-webfont.ttf') format('truetype'),
+	url('../fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+header {
+	background: #f1f1f1 url(../img/bg-header.jpg) center 0 no-repeat;
+	border-bottom: 1px solid #e6e6e6;
+}
+#logo {
+	margin:65px auto 40px;
+	width: 315px;
+}
+header h1 {
+	/*margin:65px auto 40px;
+	width: 110px;*/
+	display: inline;
+}
+header h2 {
+	margin: 0 0 65px;
+	font: 32px "NovecentowideLightBold", Arial,sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+header h3 {
+	margin: 0 0 20px;
+	font: 28px "NovecentowideLightRegular", Arial,sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+header img {
+	float: left;
+}
+.logo-ville {
+	float: left;
+	margin: 83px 0 0 15px;
+	font: 21px "NovecentowideBookBold", Arial,sans-serif;
+	line-height: 20px;
+	color: #2abbb4;
+	text-transform: uppercase;
+}
+.logo-ville span {
+	font: 13px "NovecentowideLightRegular", Arial,sans-serif;
+	color: #666666;
+	vertical-align: top;
+}
+header p {
+	font: italic 16px Georgia, "Times New Roman", serif;
+	color: #666666;
+	text-align: center;
+}
+header form {
+	margin: 0 0 -23px;
+	text-align: center;
+}
+
+header input[type="email"] {
+	margin: 0;
+	width: 381px;
+	padding: 15px 0 15px 15px;
+	font: italic 16px Georgia, "Times New Roman", serif;
+	color: #b2b2b2;
+	border-radius: 0;
+}
+header input[type="submit"] {
+	margin: 0 0 0 -10px;
+	padding: 16px 15px 16px 15px;
+	font: 15px "NovecentowideBookBold", Arial,sans-serif;
+	color: #fff;
+	background: #2abbb4;
+	border: none;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color: #b2b2b2;
+}
+.content .container {
+	padding: 0 0 55px;
+	background-image: url(../img/bg-content-top.png) , url(../img/bg-content-bottom.png);
+	background-position: center top, center bottom;
+	background-repeat: no-repeat, no-repeat;
+}
+nav {
+	margin: 70px 0 60px;
+}
+nav ul{
+	padding: 10px 0;
+	margin: 0;
+	background: #fff;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+	margin: 0 0 0 35px;
+	display: inline-block;
+	font: 17px "NovecentowideLightBold", Arial,sans-serif;
+}
+nav li:first-child {
+	margin: 0;
+}
+nav li a{
+	color: #b3b3b3;
+}
+nav li a:hover, nav li a.active {
+	color: #2abbb4;
+	text-decoration: none;
+}
+.content .intro-twitter {
+	margin: 60px 0 0;
+	font: 20px "NovecentowideBookBold", Arial,sans-serif;
+	color: #2abbb4;
+	text-transform: uppercase;
+	text-align: center;
+}
+.content .tweet-us {
+	margin: 15px 0 0;
+	padding: 15px 30px;
+	font: 20px "NovecentowideBookBold", Arial,sans-serif;
+	text-align: center;
+}
+.content .tweet-us a {
+	padding: 15px 30px;
+	color: #fff;
+	background: #2abbb4;
+	border: 3px solid #e6e6e6;
+}
+
+h2 {
+	margin: 0 0 35px;
+	font: 24px "NovecentowideBookBold", Arial,sans-serif;
+	color: #2abbb4;
+	text-transform: uppercase;
+}
+h3 {
+	margin: 0;
+	font: 16px "NovecentowideBookBold", Arial,sans-serif;
+	color: #2abbb4;
+}
+p.bold {
+	font-weight: bold;
+	margin: 0;
+}
+a {
+	color: #2abbb4;
+}
+a:hover {
+	color: #2abbb4;
+}
+.list-tweets {
+	float: left;
+	width: 520px;
+}
+.btn-last-tweets {
+	margin: 40px 0 0;
+	font: 17px "NovecentowideLightBold", Arial,sans-serif;
+	text-align: center;
+}
+.btn-last-tweets a {
+	color: #2ABBB4;
+}
+.btn-follow-us {
+	float: left;
+	margin: 0 0 0 40px;
+	padding: 60px 0 0;
+	font: 13px "NovecentowideBookBold", Arial,sans-serif;
+}
+.btn-follow-us a{
+	padding: 15px 20px 15px 45px;
+	background: #2ABBB4 url(../img/logo-twitter-btn.png) 15px 13px no-repeat;
+	color: #fff;
+	text-decoration: none;
+}
+.annuaire-entry {
+	margin: 0 0 15px;
+	min-height: 75px;
+}
+
+/*====FOOTER=====================================*/
+footer {
+	border-top: 1px solid #e6e6e6;
+	background: #FFF url(../img/bg-footer.jpg) 0 0 repeat-x;
+}
+footer .container {
+	padding: 20px 0;
+	background: url(../img/bg-footer-content.png) center bottom no-repeat;
+}
+footer p, footer img {
+	float: left;
+}
+footer p {
+	margin: 32px 0 0 8px;
+	font: 12px "NovecentowideUltraLightBold", Arial,sans-serif;
+	color: #cccccc;
+}
+footer .twitter {
+	margin: 41px 0 0;
+	float: right;
+	font: 13px "NovecentowideBookBold", Arial,sans-serif;
+	color: #2ABBB4;
+}
+footer .twitter img {
+	margin: 0 10px 0 0;
+}
